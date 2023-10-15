@@ -1,0 +1,11 @@
+<!-- View for your "NOTES PAGE" -->
+<h1 class="page-title">NOTES PAGE</h1>
+<% @notes.each do |note| %>
+  <div class="note">
+    <h2><%= note.title %></h2>
+    <p><%= note.content %></p>
+    <%= link_to "show", note%>
+  </div>
+<% end %>
+
+<%= link_to "Create New Note", new_note_path, class: "new-note-link" %>

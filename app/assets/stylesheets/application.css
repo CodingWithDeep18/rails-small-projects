@@ -1,0 +1,57 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ /* Add some basic styling for the "NOTES PAGE" heading */
+h1 {
+    font-size: 24px;
+    color: #333; /* Text color */
+    margin-bottom: 20px;
+  }
+  
+  /* Style individual notes */
+  .note {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .note h2 {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .note p {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  /* Style the "Create New Note" link */
+  .new-note-link {
+    display: block; /* Make it a block element */
+    text-align: center; /* Center the link */
+    background-color: #3498db; /* Blue color */
+    color: #fff; /* White text color */
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none; /* Remove underline */
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  .new-note-link:hover {
+    background-color: #1c6bd8; /* Darker blue on hover */
+  }
+  
