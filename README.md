@@ -1,1 +1,0 @@
-# rails-small-projects
